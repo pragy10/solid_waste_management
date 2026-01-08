@@ -1,0 +1,15 @@
+# WaRP Dataset Remapped to 4 Classes
+# Original: 28 classes -> New: 4 classes
+# Classes: rigid_plastic, soft_plastic, cardboard, metal
+
+path: D:\swm\original_datasets\warp_4_classes
+train: train/images
+test: test/images
+
+# Classes
+nc: 4
+names:
+  0: rigid_plastic
+  1: soft_plastic
+  2: cardboard
+  3: metal

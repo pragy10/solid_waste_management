@@ -1,0 +1,14 @@
+# YOLO Dataset Configuration
+
+path: D:\swm\original_datasets\zerowaste-f-final\yolo_dataset
+train: train/images
+val: val/images
+test: test/images
+
+# Classes
+nc: 4
+names:
+  0: rigid_plastic
+  1: soft_plastic
+  2: cardboard
+  3: metal

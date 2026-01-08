@@ -1,0 +1,19 @@
+# SWM Plastic Detection Dataset
+path: D:\swm\swm_final_split
+train: train/images
+val: val/images
+test: test/images
+
+# Classes
+nc: 1
+names: ['plastic']
+
+# Augmentation (YOLOv8 built-in)
+hsv_h: 0.015
+hsv_s: 0.7
+hsv_v: 0.4
+degrees: 15
+translate: 0.1
+scale: 0.5
+fliplr: 0.5
+mosaic: 1.0

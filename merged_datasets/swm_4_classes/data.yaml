@@ -1,0 +1,17 @@
+# Merged YOLO Dataset
+# Combined from: zerowaste, warp
+# Total images: 7391
+# Total annotations: 37140
+
+path: D:\swm\merged_datasets\swm_4_classes
+train: train/images
+val: val/images
+test: test/images
+
+# Classes
+nc: 4
+names:
+  0: rigid_plastic
+  1: soft_plastic
+  2: cardboard
+  3: metal
